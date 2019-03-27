@@ -1,0 +1,64 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.pantalla{
+    margin: 0;
+    display: flex;
+    height: 100%;
+}
+
+.contenedor{
+    display: flex;
+    flex-basis: 60%;
+    width: 60%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.contenido{
+    display: flex;
+    flex-basis: 25%;
+    width: 25%;
+    height: 25%;
+    border: solid rgb(128 , 128, 128) 2px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    & p{
+        background: rgba(0, 0, 0, 0.5);
+        color: aliceblue;
+        width: 100%;
+        padding: 0.5em;
+        margin: 0;
+        align-self: flex-end;
+    }
+}
+
+.modificador{
+    display: flex;
+    flex-basis: 40%;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    background: rosybrown;
+}
+
+.barra{
+    background: darkmagenta;
+    width: 90%;
+    height: 0.5%;
+}
+
+.editar{
+    width: 90%;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+

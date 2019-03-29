@@ -4,6 +4,7 @@ function cargarPagina(){
     var r = document.querySelector(".r");
     var g = document.querySelector(".g");
     var b = document.querySelector(".b");
+    console.log("3");
     
     
     function actualizarBarra(){
